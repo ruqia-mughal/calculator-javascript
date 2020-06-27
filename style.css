@@ -1,0 +1,73 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+   
+}
+
+.keyboard input{
+    background-color: rgb(241, 182, 182);
+    color:rgb(9, 130, 146);
+    width: 100px;
+    height: 70px;
+     margin:4px;
+}
+.keyboard{
+     margin: 7px;
+
+}
+
+.keyboardmain{
+    background-color: hotpink;  
+    width: 320px;
+    height: 510px;
+   
+    margin: 0 auto!important;
+    display: flex;
+    flex-direction: column !important;
+}
+
+.display{
+    padding:12px ;
+     color: green;
+    font-size: xx-large;
+}
+.display input{
+    width:100%;
+    cursor: text;
+    border:5px  rgba(117, 8, 63, 0.549);
+    border-style: groove;
+}
+.three{
+    color:hotpink !important;
+    font-size: xx-large !important;
+    background-color: rgb(221, 230, 102);
+    width: 83px !important;
+    height: 70px !important;
+    margin: 2px;
+    cursor: pointer;
+    border: none !important;
+}
+.btn-1{
+   
+    color:hotpink !important;
+   font-size: xx-large !important;
+   background-color: rgb(221, 230, 102);
+    width: 60px !important;
+    height: 60px !important;
+    margin: 2px;
+    cursor: pointer;
+}
+.btn:focus{
+    border:5px solid hotpink !important;
+    outline:none !important;
+ 
+    color:green !important
+}
+.three:focus{
+   
+        border:5px solid hotpink !important;
+        outline:none !important;
+        font-size: x-large;
+        color:green !important;
+}
